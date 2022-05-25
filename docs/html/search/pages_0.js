@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['atum8_2dspin_2dup_0',['ATUM8-Spin-Up',['../d3/dcc/md__r_e_a_d_m_e.html',1,'']]]
+];

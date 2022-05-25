@@ -1,0 +1,30 @@
+\hypertarget{atum_2include_2okapi_2api_2odometry_2odom_state_8hpp_source}{}\doxysection{odom\+State.\+hpp}
+\label{atum_2include_2okapi_2api_2odometry_2odom_state_8hpp_source}\index{atum/include/okapi/api/odometry/odomState.hpp@{atum/include/okapi/api/odometry/odomState.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/*}}
+\DoxyCodeLine{2 \textcolor{comment}{ * This Source Code Form is subject to the terms of the Mozilla Public}}
+\DoxyCodeLine{3 \textcolor{comment}{ * License, v. 2.0. If a copy of the MPL was not distributed with this}}
+\DoxyCodeLine{4 \textcolor{comment}{ * file, You can obtain one at http://mozilla.org/MPL/2.0/.}}
+\DoxyCodeLine{5 \textcolor{comment}{ */}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}okapi/api/units/QAngle.hpp"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}okapi/api/units/QLength.hpp"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{namespace }okapi \{}
+\DoxyCodeLine{13 \textcolor{keyword}{struct }OdomState \{}
+\DoxyCodeLine{14   QLength x\{0\_m\};}
+\DoxyCodeLine{15   QLength y\{0\_m\};}
+\DoxyCodeLine{16   QAngle theta\{0\_deg\};}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{21   std::string \mbox{\hyperlink{structokapi_1_1_odom_state_adfaa3faf1931a8027af8a3cf9de439c1}{str}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23   \textcolor{keywordtype}{bool} operator==(\textcolor{keyword}{const} \mbox{\hyperlink{structokapi_1_1_odom_state}{OdomState}} \&rhs) \textcolor{keyword}{const};}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{keywordtype}{bool} operator!=(\textcolor{keyword}{const} \mbox{\hyperlink{structokapi_1_1_odom_state}{OdomState}} \&rhs) \textcolor{keyword}{const};}
+\DoxyCodeLine{26 \};}
+\DoxyCodeLine{27 \} \textcolor{comment}{// namespace okapi}}
+
+\end{DoxyCode}
