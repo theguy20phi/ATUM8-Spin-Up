@@ -1,7 +1,7 @@
 #pragma once
 
 /**
- * @brief Does nothing.
+ * @brief Does nothing. Really, nothing.
  * 
  */
 struct Example {
