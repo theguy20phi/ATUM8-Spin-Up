@@ -13,7 +13,7 @@
                 "py/object": "pros.conductor.templates.local_template.LocalTemplate",
                 "supported_kernels": "^3.6.0",
                 "system_files": [
-                    "include\\atum\\testFile.hpp",
+                    "include\\atum\\atum.hpp",
                     "firmware\\atum.a"
                 ],
                 "target": "v5",
