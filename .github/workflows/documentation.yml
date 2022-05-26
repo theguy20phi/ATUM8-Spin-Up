@@ -24,10 +24,4 @@ jobs:
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.9.1
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        # Default Doxyfile build documentation to html directory. 
-        # Change the directory if changes in Doxyfile
-        publish_dir: ./docs
+    - run: ls
