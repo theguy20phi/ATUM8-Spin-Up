@@ -24,7 +24,7 @@ jobs:
         
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.9.1
-
+    -runs: ls
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
