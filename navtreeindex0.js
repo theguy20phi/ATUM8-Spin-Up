@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
 "annotated.html":[0,0],
+"another_8hpp_source.html":[1,0,0,0,0,0],
 "another_test_file_8hpp_source.html":[1,0,1,0,0,0],
 "class_test.html":[0,0,0],
 "classes.html":[0,1],
@@ -13,6 +14,6 @@ var NAVTREEINDEX0 =
 "files.html":[1,0],
 "index.html":[],
 "pages.html":[],
-"test_8hpp_source.html":[1,0,0,0,0,0],
+"test_8hpp_source.html":[1,0,0,0,0,1],
 "test_file_8hpp_source.html":[1,0,1,0,0,1]
 };
