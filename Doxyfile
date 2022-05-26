@@ -906,10 +906,9 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = . \
-                         ./atum/include/atum/ \
-                         ./18in/include/18in/ \
-                         ./15in/include/15in/
+INPUT                  = /github/workspace/15in/include/15in \
+                         /github/workspace/atum/include/atum \
+                         /github/workspace/18in/include/18in
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1331,7 +1330,7 @@ HTML_STYLESHEET        =
 # list). For an example see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = /home/runner/work/ATUM8-Spin-Up/ATUM8-Spin-Up/doxygen-awesome-css/doxygen-awesome.css
+HTML_EXTRA_STYLESHEET  = /github/workspace/doxygen-awesome-css/doxygen-awesome.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
