@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_7aeab107b81f657e58da694728c1853b" kind="dir">
+    <compoundname>atum</compoundname>
+    <innerdir refid="dir_e54ba538cc90093b18329ba4cb20beac">atum/include</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="atum/"/>
+  </compounddef>
+</doxygen>
