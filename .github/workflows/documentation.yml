@@ -21,8 +21,6 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3
-    - run: pwd
-    - run: ls
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.9.1
 
@@ -32,4 +30,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         # Default Doxyfile build documentation to html directory. 
         # Change the directory if changes in Doxyfile
-        publish_dir: .
+        publish_dir: ./docs
