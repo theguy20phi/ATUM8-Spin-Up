@@ -1,7 +1,10 @@
 #pragma once
 
 /**
- * @brief Yeah.
+ * @brief Yeah. WOOOOO 
+ * YEAHHHHH BABBYYYY 
+ * 
+ * LETTTSSS SGOOOOOOOOO
  * 
  */
 class Man {
