@@ -2,7 +2,7 @@
 
 
 /**
- * @brief Dude
+ * @brief Dude, please
  * 
  */
 void please();
