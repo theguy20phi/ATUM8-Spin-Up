@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['test_1',['Test',['../class_test.html',1,'']]]
+  ['example_1',['Example',['../struct_example.html',1,'']]]
 ];
