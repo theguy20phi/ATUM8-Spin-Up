@@ -6,3 +6,11 @@
  * 
  */
 void jeff();
+
+/**
+ * @brief This is a test class.
+ * 
+ */
+class Test {
+
+};
